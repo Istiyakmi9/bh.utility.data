@@ -114,4 +114,11 @@
 		</plugins>
 	</build>
 
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>GitHub OWNER Apache Maven Packages</name>
+			<url>https://maven.pkg.github.com/Istiyakmi9/bh.utility.data</url>
+		</repository>
+	</distributionManagement>
 </project>
