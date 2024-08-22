@@ -8,8 +8,8 @@
 		<version>3.3.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>in.bottomhalf</groupId>
-	<artifactId>utility.data</artifactId>
+	<groupId>in.bottomhalf.utility</groupId>
+	<artifactId>data</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>utility.data</name>
 	<description>Database and its utility helper classes and methods</description>
