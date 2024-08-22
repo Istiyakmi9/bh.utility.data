@@ -12,14 +12,13 @@ import java.util.Map;
 
 @Component
 public class DbManager {
-
+    private final JdbcTemplate jdbcTemplate;
     @Autowired
     DbUtils dbUtils;
 
     @Autowired
     ObjectMapper mapper;
 
-    private final JdbcTemplate jdbcTemplate;
 
     @Autowired
     DbManager(Template template) {
