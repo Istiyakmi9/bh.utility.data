@@ -1,8 +1,8 @@
-package in.bottomhalf.utility.data.service;
+package in.bottomhalf.data.service;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import in.bottomhalf.utility.data.utils.Template;
+import in.bottomhalf.data.utils.Template;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Component;

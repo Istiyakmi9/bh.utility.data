@@ -1,4 +1,4 @@
-package in.bottomhalf.utility.data.annotations;
+package in.bottomhalf.data.annotations;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

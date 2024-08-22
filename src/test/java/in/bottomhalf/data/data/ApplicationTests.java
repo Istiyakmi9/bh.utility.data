@@ -1,4 +1,4 @@
-package in.bottomhalf.utility.data;
+package in.bottomhalf.data.data;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,4 +1,4 @@
-package in.bottomhalf.utility.data;
+package in.bottomhalf.data;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

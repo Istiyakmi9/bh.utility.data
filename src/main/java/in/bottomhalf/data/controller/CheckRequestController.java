@@ -1,4 +1,4 @@
-package in.bottomhalf.utility.data.controller;
+package in.bottomhalf.data.controller;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
