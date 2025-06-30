@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>in.bottomhalf</groupId>
 	<artifactId>data</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.1</version>
 	<name>data</name>
 	<description>Database and its helper classes and methods</description>
 	<url/>
@@ -103,6 +103,12 @@
 			<artifactId>modelmapper</artifactId>
 			<version>3.1.1</version>
 		</dependency>
+
+		<dependency>
+			<groupId>in.bottomhalf</groupId>
+			<artifactId>httprequest</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -114,11 +120,21 @@
 		</plugins>
 	</build>
 
+	<repositories>
+		<repository>
+			<id>github</id>
+			<url>https://maven.pkg.github.com/Istiyakmi9/bh.httprequest</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
+
 	<distributionManagement>
 		<repository>
 			<id>github</id>
 			<name>GitHub OWNER Apache Maven Packages</name>
-			<url>https://maven.pkg.github.com/Istiyakmi9/bh.utility.data</url>
+			<url>https://maven.pkg.github.com/istiyakmi9/bh.utility.data</url>
 		</repository>
 	</distributionManagement>
 </project>
